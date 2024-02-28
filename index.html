@@ -1,97 +1,236 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Formulário</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Biblioteca Online</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="form-image">
-            <img src="assets/img//undraw_education_f8ru.svg" alt="">
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>BU</span>KA</span>SC<span>HO</span>LL<spa></spa></h1>
+          </a>
         </div>
-        <div class="form">
-            <form action="#">
-                <div class="form-header">
-                    <div class="title">
-                        <h1>Cadastre-se</h1>
-                    </div>
-                    <div class="login-button">
-                        <button><a href="#">Entrar</a></button>
-                    </div>
-                </div>
-
-                <div class="input-group">
-                    <div class="input-box">
-                        <label for="firstname">Primeiro Nome</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="number">Celular</label>
-                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
-                    </div>
-
-
-                    <div class="input-box">
-                        <label for="confirmPassword">Confirme sua Senha</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
-                    </div>
-
-                </div>
-
-                <div class="gender-inputs">
-                    <div class="gender-title">
-                        <h6>Gênero</h6>
-                    </div>
-
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <input id="female" type="radio" name="gender">
-                            <label for="female">Feminino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="male" type="radio" name="gender">
-                            <label for="male">Masculino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="others" type="radio" name="gender">
-                            <label for="others">Outros</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="none" type="radio" name="gender">
-                            <label for="none">Prefiro não dizer</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="continue-button">
-                    <button><a href="index2.html">Continuar</a> </button>
-                </div>
-            </form>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Cursos</a></li>
+            <li><a href="#projects" data-after="Projects">Objectivos</a></li>
+            <li><a href="#about" data-after="About">FUNDADOR</a></li>
+            <li><a href="#contact" data-after="Contact">Contacto</a></li>
+          </ul>
         </div>
+      </div>
     </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>WE LOVE SCRIPTS <span></span></h1>
+        <h1>WORLD <span></span></h1>
+        <h1>WE LOVE CODES</SCRIPT></SCript><span></span></h1>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">WE<span>LLC</span>OME</h1>
+        <p>  Bem-vindo à BuKaschool - O Seu Caminho para o Futuro da Programação</p>
+        <p>Na BuKaschool, estamos comprometidos em proporcionar uma experiência educacional excepcional para aspirantes a programadores. Aqui estão alguns destaques da nossa escola de programação:
+        </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="ICO1.jpg" /></div>
+          <h2>Desenvolvimento Web Full-Stack</h2>
+          <p>Este curso abrangente da BuKaschool é projetado para equipar os alunos com habilidades desde o frontend até o backend. Ao explorar linguagens como HTML, CSS, JavaScript, Node.js e frameworks populares, os alunos aprendem a construir aplicativos web dinâmicos e responsivos.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="ICO2.jpg" /></div>
+          <h2>Inteligência Artificial e Machine Learning Aplicados</h2>
+          <p> Este curso avançado mergulha nos fundamentos da inteligência artificial e machine learning. Os alunos trabalham em projetos práticos, utilizando bibliotecas como TensorFlow e scikit-learn, para desenvolver modelos preditivos e sistemas inteligentes.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="ICO3.jpg" /></div>
+          <h2>Segurança Cibernética e Ethical Hacking</h2>
+          <p> Com o aumento das ameaças cibernéticas, este curso foca em preparar os alunos para proteger sistemas e dados. Cobrindo tópicos como análise de vulnerabilidades, criptografia e ethical hacking, os alunos saem prontos para enfrentar desafios no campo da segurança cibernética.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="ICO4.jpg" /></div>
+          <h2>Desenvolvimento de Aplicativos Móveis (iOS e Android)</h2>
+          <p>Os alunos deste curso mergulham no universo do desenvolvimento de aplicativos móveis, aprendendo a criar apps para iOS e Android. Utilizando Swift, Kotlin e ferramentas como React Native, eles desenvolvem habilidades essenciais para o cenário mobile em constante evolução.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">SOBRE <span>NÒS</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Cursos Inovadores</h1>
+            <h2>"Algoritmos: A Linguagem Universal da Inovação"</h2>
+            <p>Oferecemos uma variedade de cursos inovadores, desde fundamentos de programação até tecnologias avançadas. Nossos programas são desenvolvidos por profissionais do setor para garantir relevância no mundo real.</p>
+          </div>
+          <div class="project-img">
+            <img src="curso1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Mentoria Personalizada</h1>
+            <h2>"No Mundo Binário, Criamos Possibilidades Infinitas"</h2>
+            <p>Valorizamos a jornada única de cada aluno. Oferecemos sessões de mentoria personalizada para ajudar os estudantes a desenvolverem suas habilidades de programação e alcançarem seus objetivos profissionais.</p>
+          </div>
+          <div class="project-img">
+            <img src="Curso2.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projetos Práticos</h1>
+            <h2>"Códigos são Poesias da Era Digital"</h2>
+            <p>Acreditamos na aprendizagem prática. Nossos alunos trabalham em projetos do mundo real, proporcionando experiência prática e construindo portfólios sólidos para o mercado de trabalho.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="curso3.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Comunidade Ativa</h1>
+            <h2>"Os Erros São Desafios, as Correções, Conquistas"</h2>
+            <p>A BuKaschool é mais do que uma escola; é uma comunidade. Os alunos têm acesso a fóruns, eventos e grupos de estudo, promovendo a colaboração e o networking.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="curso4.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Professores Especializados</h1>
+            <h2>"Seja o Arquiteto do Virtual, o Construtor do Digital"</h2>
+            <p> Contamos com uma equipe de instrutores altamente qualificados e experientes, apaixonados por compartilhar conhecimento e guiando os alunos em sua jornada de aprendizado.</p>
+          </div>
+          <div class="project-img">
+            <img src="curso5.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img-2.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">FUND<span>ADOR</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Márcio Abreu, renomado programador full-stack e visionário educacional, é o fundador inspirador por trás da BuKaschool. Com uma carreira sólida na indústria de tecnologia, Márcio canalizou sua paixão pela programação e sua visão de transformação educacional para criar uma escola inovadora
+          Márcio lidera a escola com um compromisso inabalável com a excelência educacional. Ele acredita que a combinação de aprendizado prático, mentoria personalizada e uma comunidade ativa é a chave para moldar programadores de destaque 
+          Além de suas responsabilidades administrativas, SR.Abreu está ativamente envolvido na orientação dos alunos, compartilhando insights valiosos e incentivando o desenvolvimento de habilidades essenciais para o sucesso no mercado de trabalho.
+        </p> 
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contactos <span>informações </span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="call.jpg" /></div>
+          <div class="contact-info">
+            <h1>Telefone</h1>
+            <h2>+244 999 999 999</h2>
+            <h2>+244 969 969 969</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="email (2).jpg" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>informe@gmail.com</h2>
+            <h2>BuKaschool@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="gps (2).jpg" /></div>
+          <div class="contact-info">
+            <h1>Endereços </h1>
+            <h2>ANGOLA,LUANDA</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>BuKa</span>sch<span></span>ool</h1>
+      </div>
+      <h2><em> Junte-se a Nós na Jornada de Aprendizado  na BuKaschool - Onde o Futuro da Programação Acontece!</em></h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="facebook.jpg" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="instagram.jpg" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="cool.jpg" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="GPS.jpg" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 BuKaschool All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
 
 </html>
